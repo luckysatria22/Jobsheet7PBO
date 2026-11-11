@@ -20,4 +20,9 @@ public class Lebah extends Hewan{
         System.out.println("Mengepakkan sayap ke belakang");
     }
  
+    @Override
+    public void cetakInfo() {
+        super.cetakInfo();
+        System.out.println("Kasta   :" + this.kasta);
+    }
 }
