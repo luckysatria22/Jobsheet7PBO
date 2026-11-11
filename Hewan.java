@@ -9,13 +9,9 @@ public class Hewan {
         this.habitat = habitat;
     }
  
-    public void bergerak(){
-        //
-    }
+    public abstract void bergerak();
  
-    public void bernapas(){
-        //
-    }
+    public abstract void bernapas();
  
     public void cetakInfo(){
         System.out.println("Berat   : " + this.berat);
